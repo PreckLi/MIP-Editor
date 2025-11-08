@@ -1,4 +1,4 @@
-# MIP-Editor
+# 🔗 MIP-Editor
 Official implementation of the paper:  
 **Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models**
 Accepted at AAAI 2026 as a Conference Paper (Oral Presentation)
@@ -11,11 +11,11 @@ Pages of the main authors: [Kunhao Li](https://preckli.github.io/), [Di Wu](http
 **MIP-Editor** is a novel method for **cross-modal unlearning** in Multimodal Large Language Models (MLLMs). It identifies and edits influential neuron paths across vision and language modalities to selectively remove unwanted knowledge (e.g., memorized private data, harmful associations) without retraining the entire model.
 ![MIP-Editor](https://github.com/PreckLi/MIP-Editor/blob/main/pictures/mainfig.png)
 
-## Run
+## ⚙️ Run
 To run the main pipeline:
 ```python main.py```
 
-📚 Citation
+## 📚 Citation
 If you find this work useful in your research, please cite our paper:
 ```
 @inproceedings{li2026crossmodal,
