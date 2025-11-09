@@ -1,9 +1,9 @@
-# 🔗 MIP-Editor
+# MIP-Editor
 Official implementation of the paper:  
 **Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models**
 Accepted at AAAI 2026 as a Conference Paper (Oral Presentation)
 
-Pages of the main authors: [Kunhao Li](https://preckli.github.io/), [Di Wu](https://diwu.work/tagir-group/), [Lei Yang](https://www2.scut.edu.cn/sse/2018/0614/c16788a270682/page.htm), <br><br><br>
+Pages of the main authors: [Kunhao Li](https://preckli.github.io/), [Di Wu](https://diwu.work/tagir-group/), [Lei Yang](https://www2.scut.edu.cn/sse/2018/0614/c16788a270682/page.htm) <br><br><br>
 ---
 
 ## 📌 Overview
@@ -19,11 +19,12 @@ To run the main pipeline with your own configurations of Multi-LLMs and Benchmar
 ```python main.py```
 
 ### 🧠 Influential Path Checkpoints
-We provide precomputed influential neuron path checkpoints based on Qwen2.5-VL, generated on the MLLMU-Bench and CLEAR unlearning benchmarks.
+We provide precomputed influential neuron path checkpoints based on Qwen2.5-VL, generated on the [MLLMU-Bench](https://github.com/franciscoliu/MLLMU-Bench) and [CLEAR](https://github.com/somvy/multimodal_unlearning) unlearning benchmarks.
 
 🔗 Download Link:
 [Baidu Netdisk](https://pan.baidu.com/s/1bosRsVY71rX-zQZv13ZS_g?pwd=8gc4)
 🔑 Extraction Code: 8gc4
+
 💡 These checkpoints contain the identified influential paths used by MIP-Editor for cross-modal unlearning. They can be directly loaded to reproduce our results without re-running path discovery.
 
 Alternatively, you can regenerate the checkpoints from scratch by setting use_neuron_cache_flag = False in [main.py](main.py). This will recompute the influential paths during execution (note: this process may take several hours depending on your hardware).
