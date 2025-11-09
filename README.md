@@ -18,6 +18,17 @@ Multimodal Large Language Models (MLLMs) extend foundation models to real-world 
 To run the main pipeline with your own configurations of Multi-LLMs and Benchmarks:
 ```python main.py```
 
+### 🧠 Influential Path Checkpoints
+We provide precomputed influential neuron path checkpoints based on Qwen2.5-VL, generated on the MLLMU-Bench and CLEAR unlearning benchmarks.
+
+🔗 Download Link:
+[Baidu Netdisk](https://pan.baidu.com/s/1bosRsVY71rX-zQZv13ZS_g?pwd=8gc4)
+🔑 Extraction Code: 8gc4
+💡 These checkpoints contain the identified influential paths used by MIP-Editor for cross-modal unlearning. They can be directly loaded to reproduce our results without re-running path discovery.
+
+Alternatively, you can regenerate the checkpoints from scratch by setting use_neuron_cache_flag = False in [main.py](main.py). This will recompute the influential paths during execution (note: this process may take several hours depending on your hardware).
+
+
 ## 📚 Citation
 If you find this work useful in your research, please cite our paper:
 ```
