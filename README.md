@@ -3,7 +3,7 @@ Official implementation of the paper:
 **Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models**
 Accepted at AAAI 2026 as a Conference Paper (Oral Presentation)
 
-Pages of the main authors: [Kunhao Li](https://preckli.github.io/), [Di Wu](https://diwu.work/tagir-group/), [Lei Yang](https://www2.scut.edu.cn/sse/2018/0614/c16788a270682/page.htm) <br><br><br>
+Homepages of the main authors: [Kunhao Li](https://preckli.github.io/), [Di Wu](https://diwu.work/tagir-group/), [Lei Yang](https://www2.scut.edu.cn/sse/2018/0614/c16788a270682/page.htm) <br><br><br>
 ---
 
 ## 📌 Overview
