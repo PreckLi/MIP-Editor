@@ -1,6 +1,6 @@
 # MIP-Editor
 Official implementation of the paper:  
-**Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models**
+[**Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models**](https://arxiv.org/abs/2511.06793)
 Accepted at AAAI 2026 as a Conference Paper (Oral Presentation)
 
 Homepages of the main authors: [Kunhao Li](https://preckli.github.io/), [Wenhao Li](https://github.com/liwh011), [Di Wu](https://diwu.work/tagir-group/), [Lei Yang](https://www2.scut.edu.cn/sse/2018/0614/c16788a270682/page.htm) <br><br><br>
