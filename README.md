@@ -31,6 +31,7 @@ We provide precomputed influential neuron path checkpoints based on Qwen2.5-VL, 
 🔗 Download Link:
 [Baidu Netdisk](https://pan.baidu.com/s/1bosRsVY71rX-zQZv13ZS_g?pwd=8gc4)
 🔑 Extraction Code: 8gc4
+&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;[Google Drive](https://drive.google.com/file/d/10XNPNDk9W3wpajbAHF4CsU-_npiNxM_b/view?usp=drive_link)
 
 💡 These checkpoints contain the identified influential paths used by MIP-Editor for cross-modal unlearning. They can be directly loaded to reproduce our results without re-running path discovery.
 
