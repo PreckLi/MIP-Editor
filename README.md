@@ -41,10 +41,23 @@ Alternatively, you can regenerate the checkpoints from scratch by setting use_ne
 ## 📚 Citation
 If you find this work useful in your research, please cite our paper:
 ```
-@inproceedings{li2026crossmodal,
-  title     = {Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models},
-  author    = {Li, Kunhao and Li, Wenhao and Wu, Di and Yang, Lei and Bai, Jun and Jia, Ju and Xue, Jason},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year      = {2026}
+@article{
+Li_Li_Wu_Yang_Bai_Jia_Xue_2026,
+title={Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models},
+volume={40},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/40870},
+DOI={10.1609/aaai.v40i42.40870},
+number={42},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Li, Kunhao and Li, Wenhao and Wu, Di and Yang, Lei and Bai, Jun and Jia, Ju and Xue, Jason},
+year={2026},
+month={Mar.},
+pages={35589-35597}
 }
 ```
+
+
+
+
+
+
